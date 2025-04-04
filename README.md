@@ -28,9 +28,13 @@ cd SQLAlchemy_task
 ### 2. Создайте и активируйте виртуальное окружение
 ```bash
 python -m venv venv
-# Windows:
-venv\Scripts\activate
-# Linux/macOS:
+```
+#### Windows:
+```bash
+.\venv\Scripts\Activate.ps1
+```
+#### Linux/macOS:
+```bash
 source venv/bin/activate
 ```
 ### 3. Установите зависимости
